@@ -1,14 +1,22 @@
 import { useState } from "react";
 import { SvgLoader, SvgProxy } from "react-svgmt";
-import lampImg from  "./lamp.svg";
+import lampImg from  "./lamps.svg";
+import "./lamp.css"
 
 const Lamp = () => {
     const [ligada, setLigada] = useState(true);
-    setTimeout(() => setLigada(!ligada), 1000);
+    const [index, setIndex] = useState(0);
+    const lampNome = "RWPKD";
+    setTimeout(() =>{
+        setIndex((index + 1)%5);
+        if(index === 4){
+            setLigada(!ligada);
+        } 
+    }, 500);
     return(
         <div>
              <SvgLoader path={lampImg}>
-                 <SvgProxy selector="#brightnessOfTheLamp" opacity={(ligada)?"1":"0"}/>
+                 <SvgProxy selector={`#brightnessOfTheLamp_${lampNome[index]}`} opacity={(ligada)?"1":"0"}/>
              </SvgLoader>
         </div>
     );
