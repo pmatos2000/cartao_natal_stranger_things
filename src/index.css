@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./resources/img/wallpaper.png");
   background-repeat: repeat;
-  background-size: 20vmin;
+  background-size: 100vmin;
 }
 
 code {
