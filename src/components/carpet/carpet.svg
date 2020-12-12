@@ -9,12 +9,16 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <g stroke-linecap="round">
+ <g transform="matrix(.8501 0 0 .8501 28.23 8.2284)" opacity=".35601" stroke-linecap="round">
+  <ellipse cx="141.12" cy="68.644" rx="118.93" ry="19.822" stroke-width=".44854"/>
+  <ellipse cx="140.74" cy="68.644" rx="89.268" ry="14.878" stroke-width=".33666"/>
+  <ellipse cx="137.78" cy="68.109" rx="62.007" ry="10.334" stroke-width=".23384"/>
+  <ellipse cx="137.78" cy="68.109" rx="39.895" ry="6.6492" stroke-width=".15046"/>
+ </g>
+ <g transform="matrix(.8501 0 0 .8501 27.835 6.0976)" stroke-linecap="round">
   <ellipse cx="141.12" cy="68.644" rx="118.93" ry="19.822" fill="#800080" stroke-width=".44854"/>
-  <g>
-   <ellipse cx="140.74" cy="68.644" rx="89.268" ry="14.878" fill="#b400b4" stroke-width=".33666"/>
-   <ellipse cx="137.78" cy="68.109" rx="62.007" ry="10.334" fill="#800080" stroke-width=".23384"/>
-   <ellipse cx="137.78" cy="68.109" rx="39.895" ry="6.6492" fill="#b400b4" stroke-width=".15046"/>
-  </g>
+  <ellipse cx="140.74" cy="68.644" rx="89.268" ry="14.878" fill="#b400b4" stroke-width=".33666"/>
+  <ellipse cx="137.78" cy="68.109" rx="62.007" ry="10.334" fill="#800080" stroke-width=".23384"/>
+  <ellipse cx="137.78" cy="68.109" rx="39.895" ry="6.6492" fill="#b400b4" stroke-width=".15046"/>
  </g>
 </svg>

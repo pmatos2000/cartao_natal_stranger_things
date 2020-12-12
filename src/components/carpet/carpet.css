@@ -1,0 +1,16 @@
+
+
+.CarpetContainer{
+    width: min(56.25vw, 100vh);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: max(-9.375vw, -16.67vh);
+}
+
+.Carpet {
+    width: min(56.25vw, 100vh);
+    height: auto;
+}

@@ -25,4 +25,8 @@
     -moz-background-size: contain;
     background-size: contain;
     height: min(18.75vw, 33vh);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
 }
