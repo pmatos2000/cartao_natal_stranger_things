@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1080" height="360" version="1.1" viewBox="0 0 285.75 95.25" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<svg width="768" height="138" version="1.1" viewBox="0 0 203.2 36.512" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
  <metadata>
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -9,13 +9,10 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <g transform="matrix(.8501 0 0 .8501 28.23 8.2284)" opacity=".35601" stroke-linecap="round">
-  <ellipse cx="141.12" cy="68.644" rx="118.93" ry="19.822" stroke-width=".44854"/>
-  <ellipse cx="140.74" cy="68.644" rx="89.268" ry="14.878" stroke-width=".33666"/>
-  <ellipse cx="137.78" cy="68.109" rx="62.007" ry="10.334" stroke-width=".23384"/>
-  <ellipse cx="137.78" cy="68.109" rx="39.895" ry="6.6492" stroke-width=".15046"/>
+ <g transform="matrix(.8501 0 0 .8501 3.1962 -2.4782)" opacity=".35601" stroke-linecap="round">
+  <ellipse cx="116.1" cy="23.982" rx="118.93" ry="19.822" stroke-width=".44854"/>
  </g>
- <g transform="matrix(.8501 0 0 .8501 27.835 6.0976)" stroke-linecap="round">
+ <g transform="matrix(.8501 0 0 .8501 -18.599 -41.239)" stroke-linecap="round">
   <ellipse cx="141.12" cy="68.644" rx="118.93" ry="19.822" fill="#800080" stroke-width=".44854"/>
   <ellipse cx="140.74" cy="68.644" rx="89.268" ry="14.878" fill="#b400b4" stroke-width=".33666"/>
   <ellipse cx="137.78" cy="68.109" rx="62.007" ry="10.334" fill="#800080" stroke-width=".23384"/>

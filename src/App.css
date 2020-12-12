@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  cursor: url("./resources/img/wafer.svg"), default;
+  cursor: url("./resources/img/gift_white.svg"), default;
   display: flex;
   justify-content: center;
 }

@@ -2,7 +2,7 @@
     flex-direction: column;
     display: flex;
     align-content: flex-end;
-    width: min(100vw, 177.8vh);
+    width: 100vw;
     height: 100vh;
 }
 
@@ -13,10 +13,6 @@
     -moz-background-size: contain;
     background-size: contain;
     flex-grow: 1;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: center;
 }
 
 .Floor{
@@ -25,8 +21,27 @@
     -moz-background-size: contain;
     background-size: contain;
     height: min(18.75vw, 33vh);
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: center;
+}
+
+.Container {
+    border-style: dotted;
+    width: min(100vw, 177.78vh);
+    height: min(56.25vw, 100vh);
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.BoxCarpet {
+    position: absolute;
+    align-self: center;
+    bottom: min(3.9375vw, 7vh);
+    left: min(28.125vw,50vh);
+}
+
+.BoxWalketTalker {
+    position: absolute;
+    align-self: center;
+    bottom: min(5.625vw,10vh);
+    left: min(48.125vw,85.55vh);
 }

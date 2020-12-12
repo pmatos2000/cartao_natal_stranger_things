@@ -1,5 +1,6 @@
 import Carpet from "../carpet/carpet";
 import Lamps from "../lamps/lamps";
+import WalkerTalker from "../walker_talker/walker_talker"
 import "./normal_world.css";
 
 
@@ -7,10 +8,14 @@ const NormalWord = () => {
     return(
         <div className="NormalWord">
             <div className="Wall">
-                <Lamps/>
             </div>
             <div className="Floor">
-                <Carpet/>
+            </div>
+            <div className="Container">
+                <Lamps/>
+                <div className="BoxCarpet"> <Carpet /> </div>
+                <div className="BoxWalketTalker"> <WalkerTalker/> </div>
+                
             </div>
         </div>
     );

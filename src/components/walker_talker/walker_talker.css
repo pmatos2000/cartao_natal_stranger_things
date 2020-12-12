@@ -1,8 +1,9 @@
+
 .WalkerTalker {
-    width: min(5.2vw, 9.26vh);
+    width: min(5.21vw, 9.26vh);
     height: auto;
 }
 
 .WalkerTalker:hover{
-    cursor: url("../../resources/img/wafer_event.svg"), pointer;
+    cursor: url("../../resources/img/gift_yellow.svg"), pointer;
 }
