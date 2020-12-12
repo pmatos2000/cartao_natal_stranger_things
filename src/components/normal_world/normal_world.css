@@ -29,7 +29,7 @@
     height: min(56.25vw, 100vh);
     align-self: center;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
 }
 
 .BoxCarpet {
