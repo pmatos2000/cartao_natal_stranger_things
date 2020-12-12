@@ -1,10 +1,10 @@
 .Charmelon{
     width: min(9vw, 16vh);
     height: auto;
-    opacity: 10%;
+    opacity: 0.1;
 }
 
 .Charmelon:hover{
-    opacity: 100%;
+    opacity: 1;
     cursor: url("../../resources/img/gift_yellow.svg"), pointer;
 }
