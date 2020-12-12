@@ -1,4 +1,6 @@
 .App {
   text-align: center;
   cursor: url("./resources/img/wafer.svg"), default;
+  display: flex;
+  justify-content: center;
 }

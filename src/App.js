@@ -1,10 +1,10 @@
 import './App.css';
-import Lamps from "./components/lamps/lamps"
+import NormalWord from "./components/normal_world/normal_world"
 
 function App() {
   return (
     <div className="App">
-      <Lamps />
+      <NormalWord/>
     </div>
   );
 }

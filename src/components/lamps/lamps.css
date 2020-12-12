@@ -1,3 +1,8 @@
 .ConfigLamp {
     cursor: url("../../resources/img/wafer_event.svg"), pointer;
 }
+
+.Lamps {
+    width: min(56.25vw, 100vh);
+    height: auto;
+}

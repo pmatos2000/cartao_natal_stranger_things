@@ -1,0 +1,28 @@
+.NormalWord{
+    flex-direction: column;
+    display: flex;
+    align-content: flex-end;
+    width: min(100vw, 177.8vh);
+    height: 100vh;
+}
+
+
+.Wall{
+    background-image: url("../../resources/img/wallpaper.png");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Floor{
+    background-image: url("../../resources/img/floor.png");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    height: min(18.75vw, 33vh);
+}
