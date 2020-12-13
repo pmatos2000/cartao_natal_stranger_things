@@ -34,13 +34,13 @@
 
 .BoxCarpet {
     position: absolute;
-    bottom: min(3.9375vw, 7vh);
+    bottom: min(0.5625vw,1vh);
     left: min(28.125vw,50vh);
 }
 
 .BoxWalketTalker {
     position: absolute;
-    bottom: min(0.5625vw,1vh);;
+    bottom: min(0.5625vw,1vh);
     left: min(48.125vw,85.55vh);
 }
 
