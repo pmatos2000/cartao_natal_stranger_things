@@ -1,4 +1,4 @@
-.NormalWord{
+.InvertedWord{
     flex-direction: column;
     display: flex;
     align-content: flex-end;
@@ -7,16 +7,16 @@
 }
 
 
-.Wall{
-    background-image: url("../../resources/img/wallpaper.png");
+.WallInv{
+    background-image: url("../../resources/img/wallpaper_inv.png");
     -webkit-background-size: contain;
     -moz-background-size: contain;
-    background-size: contain;
+    background-size: min(20vw,34vh);
     flex-grow: 1;
 }
 
-.Floor{
-    background-image: url("../../resources/img/floor.png");
+.FloorInv{
+    background-image: url("../../resources/img/floor_inv.png");
     -webkit-background-size: contain;
     -moz-background-size: contain;
     background-size: contain;
@@ -32,24 +32,6 @@
     bottom: 0px;
 }
 
-.BoxCarpet {
-    position: absolute;
-    bottom: min(0.5625vw,1vh);
-    left: min(28.125vw,50vh);
-}
-
-.BoxWalketTalker {
-    position: absolute;
-    bottom: min(0.5625vw,1vh);
-    left: min(48.125vw,85.55vh);
-}
-
-.BoxCharmelon {
-    position: absolute;
-    bottom:  min(0.5625vw,1vh);;
-    left: min(33.75vw,60vh);
-}
-
 
 .BoxChristmasTree {
     position: absolute;
@@ -57,7 +39,7 @@
     right:  min(0.5625vw,1vh);;
 }
 
-.BoxDoor {
+.BoxDoorInv {
     position: absolute;
     bottom: min(8.49375vw,15.1vh);
     left:  min(0.5625vw,1vh);
