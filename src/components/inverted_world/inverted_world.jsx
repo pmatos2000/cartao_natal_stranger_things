@@ -1,5 +1,6 @@
 import Door from "../door/door"
 import "./inverted_world.css";
+import Demogorgon from "../demogorgon/demogorgon"
 
 
 const InvertedWord = (promps) => {
@@ -10,8 +11,9 @@ const InvertedWord = (promps) => {
             </div>
             <div className="FloorInv">
             </div>
-            <div className="Container">
+            <div className="ContainerInv">
                 <div className="BoxDoor"> <Door changeTheWorld={changeTheWorld} inverted={true}/> </div>
+                <div className="BoxDemogorgon"> <Demogorgon/> </div>
             </div>
         </div>
     );

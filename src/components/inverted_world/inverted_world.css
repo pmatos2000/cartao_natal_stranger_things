@@ -23,7 +23,7 @@
     height: min(10.125vw, 18vh);
 }
 
-.Container {
+.ContainerInv {
     border-style: dotted;
     width: min(100vw, 177.78vh);
     height: min(56.25vw, 100vh);
@@ -43,4 +43,10 @@
     position: absolute;
     bottom: min(8.49375vw,15.1vh);
     left:  min(0.5625vw,1vh);
+}
+
+.BoxDemogorgon {
+    position: absolute;
+    bottom: 0;
+    left: min(28.125vw,50vh);
 }
