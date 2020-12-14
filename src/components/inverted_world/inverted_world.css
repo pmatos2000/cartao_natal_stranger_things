@@ -50,3 +50,11 @@
     bottom: 0;
     left: min(28.125vw,50vh);
 }
+
+.DoorArea {
+    position: absolute;
+    width: min(16.875vw, 30vh);
+    height: 15vh;
+    background-color: coral;
+    cursor: url("../../resources/img/gift_yellow.svg"), pointer;
+}
