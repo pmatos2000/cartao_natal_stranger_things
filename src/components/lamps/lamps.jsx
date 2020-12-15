@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect} from "react";
 import { SvgLoader, SvgProxy } from "react-svgmt";
 import lampImg from "./lamps.svg";
 import "./lamps.css"
@@ -10,6 +10,16 @@ const Lamps = () => {
     const [sequence, setSequence] = useState([[""]]);
     const [sequenceID, setSequenceID] = useState(-1);
     const [idsTimeOut,] = useState([]);
+
+    useEffect(() => {
+        let mounted = true;
+        const idTimeOut = setTimeout(() =>{
+            if(mounted === false) return;
+            setState((state + 1) % sequence.length);
+        }, 1000);
+        idsTimeOut.push(idTimeOut);
+        return () => mounted = false;
+    });
 
 
     const proxSequence = () => {
@@ -60,8 +70,8 @@ const Lamps = () => {
     while (idsTimeOut.length > 0) {
         clearTimeout(idsTimeOut.pop());
     }
-    const idTimeOut = setTimeout(() => setState((state + 1) % sequence.length), 1000);
-    idsTimeOut.push(idTimeOut);
+
+
 
     return (
         <SvgLoader path={lampImg} className="Lamps">

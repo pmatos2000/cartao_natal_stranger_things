@@ -7,14 +7,12 @@ const InvertedWord = (promps) => {
     const { changeTheWorld } = promps;
     return (
         <div>
-            
             <div className="InvertedWord">
 
                 <div className="WallInv">
                 </div>
                 <div className="FloorInv">
                 </div>
-
                 <div className="ContainerInv">
                     <div className="BoxDoor"> <Door changeTheWorld={changeTheWorld} inverted={true} /> </div>
                     <div className="BoxDemogorgon"> <Demogorgon /> </div>
